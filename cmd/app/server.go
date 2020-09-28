@@ -43,7 +43,7 @@ func serveWsTerminal(c echo.Context) error {
 		return err
 	}
 
-	u, err := url.Parse("https://kce.registry.cn-shanghai-2.sdns.ksyun.com:443")
+	u, err := url.Parse("https://xxx.com:443")
 	if err != nil {
 		return err
 	}
