@@ -1,4 +1,4 @@
-FROM hub.kce.ksyun.com/tekton/alpine-glibc
+FROM alpine-glibc
 
 ENV KUBE_CONFIG /root/config
 COPY /build/config /root/config
