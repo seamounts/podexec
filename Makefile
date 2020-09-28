@@ -9,5 +9,4 @@ build:
 .PHONY: image
 image:
 	docker build --network host -t pod-exec:$(VERSION) -f build/Dockerfile .
-	docker tag pod-exec:$(VERSION) hub-cn-shanghai-2.kce.ksyun.com/ksyun/pod-exec:$(VERSION)
-	docker push hub-cn-shanghai-2.kce.ksyun.com/ksyun/pod-exec:$(VERSION)
+	docker push pod-exec:$(VERSION)
